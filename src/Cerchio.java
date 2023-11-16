@@ -1,8 +1,8 @@
 public class Cerchio extends Forma {
 
-    private double raggio;
+    private double raggioooo;
     
-    public Cerchio(double raggio) {
+    public Cerchio(double raggioooo) {
         this.raggio = raggio;
     }
 
@@ -12,12 +12,12 @@ public class Cerchio extends Forma {
     }
 
     public double getRaggio() {
-        return raggio;
+        return raggioooo;
     }
 
     @Override
     public String toString() {
-        return "Cerchio [raggio=" + raggio + "]";
+        return "Cerchio [raggio=" + raggiooo + "]";
     }
 
     @Override
@@ -26,10 +26,10 @@ public class Cerchio extends Forma {
     }
 
     public void setRaggio(double raggio) {
-        this.raggio = raggio;
+        this.raggiooo = raggio;
     }
 
     private double extracted() {
-        return 2*raggio*Math.PI;
+        return 2*raggiooo*Math.PI;
     }
 }
